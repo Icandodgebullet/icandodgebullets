@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <title>СТРОЙТЕГИЯ</title>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="./main.html">Главная</a>
+            <a href="./objects.html">Объекты</a>
+            <a href="./socials.html">Соц. проекты</a>
+            <a href="./team.html">Команда</a>
+    </div>
+      <div class="sandwich-container">
+      <span class="sandwich" onclick="openNav()">&#9776;</span>
+    </div>
+
+    <div class="header main">
+        <div class="full-logo">
+            <a href="./main.html"></a>
+        </div>
+        <h1>Это наша<br>работа
+        <div class="arrow">
+            <a href="#slider">
+            <span></span>
+            </a>
+        </div>
+        </h1>
+    </div>
+
+    <div class="slideshow-container" id="slider">
+        <div class="mySlides fade">
+            <div class="slider-item">
+                <img src="./images/dji-0811-s.jpg" alt="houses">
+                <div class="slider-text">
+                    <h2>Комплексный подход к строительству</h2>
+                    <p>Мы знаем толк в строительстве любых объектов — от промышленных до инфраструктурных. Инновационные методы и современное оборудование помогает нам держать процессы под контролем на любом этапе. За годы существования компании мы построили более 550 000 м² площадей.</p>
+                    <span>550000</span>
+                </div> 
+            </div>       
+        </div>
+      
+        <div class="mySlides fade">
+            <div class="slider-item">
+                <img src="./images/dji-0954-s.jpg" alt="wall">
+                <div class="slider-text">
+                    <h2>Ответственность и исполнительность</h2>
+                    <p>Мы умеем выстраивать честные и доверительные отношения — как внутри команды, так и с клиентом. Внимательно анализируем все детали задачи, эффективно выстраиваем систему работы в области контроля качества, финансового планирования, оптимизируем сроки и бюджеты. Благодаря такому подходу мы успешно реализовали более 110 объектов.</p>
+                    <span>110</span> 
+                </div>
+            </div>  
+        </div>
+      
+        <div class="mySlides fade">
+            <div class="slider-item">
+                <img src="./images/dji-0682-s.jpg" alt="house">
+                <div class="slider-text">
+                    <h2>Многолетний опыт</h2>
+                    <p>Наша компания начинала свою деятельность, занимаясь монолитным домостроением. Став лучшими в этом деле, мы пошли дальше, и теперь можем профессионально заниматься генподрядными работами, строительством «под ключ». Мы можем подключаться на любом этапе строительства и выполнять самые сложные задачи, ведь наш опыт составляет уже более 15 лет.</p>
+                    <span>15</span>    
+                </div>
+            </div>       
+        </div>
+      
+        <div class="mySlides fade">
+            <div class="slider-item">
+                <img src="./images/img-0107-1.jpg" alt="GIRLS">
+                <div class="slider-text">
+                    <h2>Качественные решения</h2>
+                    <p>Мы всегда уверены в достойном результате нашей работы. Потому что подходим ответственно к любой задаче: просчитываем до мелочей необходимые ресурсы, обладаем штатом профессиональных сотрудников и соответствующим оборудованием и техникой. В нашей команде более 1500 человек.</p>
+                    <span>1500</span>
+                </div>
+            </div>    
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    </div>
+
+    <div class="buildings-images">
+        <div><button><a href="">Мы построили</a></button></div>
+        <div><button><a href="">Мы строим</a></button></div>
+    </div>
+
+    <div class="map-container">
+        <h2>Объекты, <span>построенные</span> нами</h2>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7a22ef5f4977468d9c689ec015be44b5e5ae57d1764b36d276a0d73fba84bab1&amp;width=70%&amp;height=360&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+
+    <h2 class="news"><a href="">Новости</a></h2>
+    <div class="news-container">
+        <a href="">
+            <h2>Объекты</h2>
+            <div class="news-content">
+            <p>Торжественное открытие дома “Екатеринбург”<br>
+            <span>Читать далее</span></p>
+            <img src="./images/izobrazhenie-viber-2022-01-13-18-40-55-245.jpg" alt="Торжественное открытие дома “Екатеринбург”">
+            </div>
+        </a>
+
+        <a href="">
+            <h2>Соц. проекты</h2>
+            <div class="news-content">
+            <p>Поздравления с Новым 2022 годом!<br>
+            <span>Читать далее</span></p>
+            <img src="./images/izobrazhenie-viber-2022-01-12-12-07-41-479.jpg" alt="Поздравления с Новым 2022 годом!">
+            </div>
+        </a>
+
+        <a href="">
+            <h2>Команда</h2>
+            <div class="news-content">
+            <p>Праздник к нам приходит<br>
+            <span>Читать далее</span></p>
+            <img src="./images/izobrazhenie-viber-2021-12-20-17-01-13-933.jpg" alt="Праздник к нам приходит">
+            </div>
+        </a>
+    </div>
+
+    <div onclick="topFunction()" id="myBtn" title="Go to top"><span></span></div>
+
+    <div class="footer">
+        <div class="footer-content-1">
+            <img src="./images/logo-mini.png" alt="">
+            <a href="">О нас</a>
+            <a href="">Новости</a>
+            <a href="">Объекты</a>
+            <a href="">Услуги</a>
+            <a href="">Команда</a>
+            <a href="">Соц. проекты</a>
+            <a href="">Карьера</a>
+            <a href="">Контакты</a>
+            <p>&#9742; +375 17 282-99-99 +375 44 529-59-05<br>
+            Республика Беларусь,<br>
+            г. Минск, ул. Селицкого, д. 37, 220075</p>
+            </div>
+        <hr>
+        <div class="footer-content-2">
+            <p>© 2005 – 2022 ООО «СУ-3 Белстрой»</p>
+            <p>Разработка сайта - <a href="https://braincloud.by/" target="_blank">BrainCloud</a></p>
+        </div>
+    </div>
+
+<script src="./js/slider.js"></script>
+<script src="./js/sidemenu.js"></script>
+<script src="./js/gototop.js"></script>
+</body>
+</html>
